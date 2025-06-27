@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Sat Jun 21 14:32:53 2025 as: /usr/lib/nmap/nmap --privileged -sV -Pn -oN redteam-scan.txt 192.168.56.101
+mass_dns: warning: Unable to determine any DNS servers. Reverse DNS is disabled. Try using --system-dns or specify valid servers with --dns-servers
+Nmap scan report for 192.168.56.101
+Host is up (0.0015s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 9.6p1 Ubuntu 3ubuntu13.12 (Ubuntu Linux; protocol 2.0)
+80/tcp open  http    Apache httpd 2.4.58 ((Ubuntu))
+MAC Address: 08:00:27:34:BE:95 (PCS Systemtechnik/Oracle VirtualBox virtual NIC)
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jun 21 14:32:59 2025 -- 1 IP address (1 host up) scanned in 6.55 seconds
